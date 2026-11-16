@@ -1,6 +1,5 @@
-# Pipeline Architecture Diagram
-```
-
+aid# Pipeline Architecture Diagram
+```mermaid
 flowchart TD
   CSV[CSV source data] --> |Data validation / ingestion fields| CSVBronze[CSV Bronze layer]
   CSVBronze --> |Standardising e.g. formats, units, naming conventions, data types etc.| CSVSilver[CSV Silver layer]
